@@ -26,13 +26,17 @@ body
 {
     width: 100%;
     height: 40%;
+    overflow: hidden;
+    position: relative;
 }
 #card-image > img
 {
+    position: absolute;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 #card-content
 {
@@ -150,6 +154,7 @@ body
 }
 #card-image > img
 {
+    position: static;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     border-top-right-radius:0px;/*Changed here */
