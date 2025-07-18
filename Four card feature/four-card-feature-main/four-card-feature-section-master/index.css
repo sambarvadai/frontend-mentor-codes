@@ -125,6 +125,7 @@ padding-block-start: 5%;
     }
       .box-grid{
         grid-template-columns: repeat(34,1fr);
+        margin: auto;
 
     }
     .grid-box{
